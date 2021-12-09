@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный магазин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/components.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header-component></header-component>
+    <script>
+        $(document).ready(function (event) {
+            checkLogin();
+        });
+    </script>
+    <main>
+        <div class="wrapper">
+            <div id="main-content">
+                <div id="bookshelf" style="min-height: 700px;">
+                    <div class="card">
+                        <h3>Владелец сайта:</h3>  
+                        <br>
+                        <p>Автор: Балин Максим</p>
+                        <p>Группа: ИКБО-24-20</p>
+                        <p>Должность: Fullstack разработчик</p>
+                        <br>
+                        <h3>Информация о магазине:</h3>  
+                        <br>
+                        <p>Онлайн магазин: "Book Shop"</p>
+                        <p>Время работы: 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer-component></footer-component>
+</body>
+</html>

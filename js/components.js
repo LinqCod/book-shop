@@ -11,7 +11,7 @@ class Header extends HTMLElement {
                 <div id="head-wrapper">
                     <img src="../resources/logo.png" width="250px">
                     <nav id="middle-nav">
-                        <a href="./main_page.html">Главная</a>
+                        <a href="./index.html">Главная</a>
                         <a href="./books.html">Книги</a>                   
                         <a href="./top3.html">ТОП-3</a>
                          <a href="./reference.html">Справка</a>
@@ -51,7 +51,7 @@ class Footer extends HTMLElement {
             <div class="wrapper">
                 <nav class="bottom-nav">
                         <p class="title">О компании</p>                   
-                    <a href="./main_page.html">
+                    <a href="./index.html">
                         <p>О нас</p>
                     </a>
                 </nav>
