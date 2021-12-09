@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный магазин</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/components.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header-component></header-component>
+    <script>
+        $(document).ready(function (event) {
+            checkLogin();
+        });
+    </script>
+    <main>
+        <div class="wrapper">
+            <div id="main-content">
+                <div id="bookshelf">
+                    <div class="card" style="min-height: 600px;">                      
+                        <h3>Как со мной связаться?</h3>
+                        <br>
+                        <p>Телефон: 8-800-555-35-35</p>
+                        <p>Почта: danny12123@yandex.ru</p>           
+                        <p>Ссылка на github: https://github.com/linqcod</p>                             
+                        <br>
+                        <h3>Политика конфиденциальности</h3>
+                        <br>
+                        <p>Целью настоящего документа также является донести пользователям (1) вид/тип собираемой персональной информации; и (2) методы и способы сбора персональной информации; и (3) цели, для которых происходит сбор персональной информации; и (4) сроки хранения такой персональной информации, а также права пользователей; и (5) перечень лиц, которые могут получить доступ к передаваемой персональной информации.</p>       
+                        <p>Данная Политика конфиденциальности предназначена исключительно для информирования пользователей о (возможном) сборе их персональных данных. Настоящий документ не стоит путать с Пользовательским соглашением (Terms of Use) для веб-сайта, которое определяет в свою очередь свод правил, которых пользователю нужно придерживаться во время использования определенного сайта (к примеру, запрет мошенничества, авторские права на контент, порядок возврата товара и т.п.). Кроме этого, если необходимо разработать порядок сбора и обработки персональных данных пользователей.</p>                                                                               
+                        <br>
+                    </div>                                        
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer-component></footer-component>
+</body>
+</html>
